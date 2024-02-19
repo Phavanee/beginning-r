@@ -20,6 +20,6 @@ detach("package:datasets", unload = TRUE)  # For base
 dev.off()  # But only if there IS a plot
 
 # Clear console
-cat("\014")  # ctrl+L
+#cat("\014")  # ctrl+L
 
 # Clear mind :)

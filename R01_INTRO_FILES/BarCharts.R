@@ -13,9 +13,13 @@ head(mtcars)
 # BAR CHARTS ###############################################
 
 barplot(mtcars$cyl)             # Doesn't work
+# plot goes through all cases and whats the no of cyl
+# in each case
 
 # Need a table with frequencies for each category
 cylinders <- table(mtcars$cyl)  # Create table
+# creates table from cyl of mtcars
+# feed it into object cylinders
 barplot(cylinders)              # Bar chart
 plot(cylinders)                 # Default X-Y plot (lines)
 
